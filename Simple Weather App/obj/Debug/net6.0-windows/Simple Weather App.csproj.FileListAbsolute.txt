@@ -1,0 +1,26 @@
+Z:\Visual Studio Projects\Simple Weather App\Simple Weather App\bin\Debug\net6.0-windows\Simple Weather App.exe
+Z:\Visual Studio Projects\Simple Weather App\Simple Weather App\bin\Debug\net6.0-windows\Simple Weather App.deps.json
+Z:\Visual Studio Projects\Simple Weather App\Simple Weather App\bin\Debug\net6.0-windows\Simple Weather App.runtimeconfig.json
+Z:\Visual Studio Projects\Simple Weather App\Simple Weather App\bin\Debug\net6.0-windows\Simple Weather App.dll
+Z:\Visual Studio Projects\Simple Weather App\Simple Weather App\bin\Debug\net6.0-windows\Simple Weather App.pdb
+Z:\Visual Studio Projects\Simple Weather App\Simple Weather App\bin\Debug\net6.0-windows\System.Net.Http.Formatting.dll
+Z:\Visual Studio Projects\Simple Weather App\Simple Weather App\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+Z:\Visual Studio Projects\Simple Weather App\Simple Weather App\bin\Debug\net6.0-windows\Newtonsoft.Json.Bson.dll
+Z:\Visual Studio Projects\Simple Weather App\Simple Weather App\obj\Debug\net6.0-windows\Simple Weather App.csproj.AssemblyReference.cache
+Z:\Visual Studio Projects\Simple Weather App\Simple Weather App\obj\Debug\net6.0-windows\MainWindow.g.cs
+Z:\Visual Studio Projects\Simple Weather App\Simple Weather App\obj\Debug\net6.0-windows\App.g.cs
+Z:\Visual Studio Projects\Simple Weather App\Simple Weather App\obj\Debug\net6.0-windows\Simple Weather App_MarkupCompile.cache
+Z:\Visual Studio Projects\Simple Weather App\Simple Weather App\obj\Debug\net6.0-windows\Simple Weather App_MarkupCompile.lref
+Z:\Visual Studio Projects\Simple Weather App\Simple Weather App\obj\Debug\net6.0-windows\MainWindow.baml
+Z:\Visual Studio Projects\Simple Weather App\Simple Weather App\obj\Debug\net6.0-windows\Simple Weather App.g.resources
+Z:\Visual Studio Projects\Simple Weather App\Simple Weather App\obj\Debug\net6.0-windows\Simple Weather App.GeneratedMSBuildEditorConfig.editorconfig
+Z:\Visual Studio Projects\Simple Weather App\Simple Weather App\obj\Debug\net6.0-windows\Simple Weather App.AssemblyInfoInputs.cache
+Z:\Visual Studio Projects\Simple Weather App\Simple Weather App\obj\Debug\net6.0-windows\Simple Weather App.AssemblyInfo.cs
+Z:\Visual Studio Projects\Simple Weather App\Simple Weather App\obj\Debug\net6.0-windows\Simple Weather App.csproj.CoreCompileInputs.cache
+Z:\Visual Studio Projects\Simple Weather App\Simple Weather App\obj\Debug\net6.0-windows\Simple Weather App.csproj.CopyComplete
+Z:\Visual Studio Projects\Simple Weather App\Simple Weather App\obj\Debug\net6.0-windows\Simple Weather App.dll
+Z:\Visual Studio Projects\Simple Weather App\Simple Weather App\obj\Debug\net6.0-windows\refint\Simple Weather App.dll
+Z:\Visual Studio Projects\Simple Weather App\Simple Weather App\obj\Debug\net6.0-windows\Simple Weather App.pdb
+Z:\Visual Studio Projects\Simple Weather App\Simple Weather App\obj\Debug\net6.0-windows\Simple Weather App.genruntimeconfig.cache
+Z:\Visual Studio Projects\Simple Weather App\Simple Weather App\obj\Debug\net6.0-windows\ref\Simple Weather App.dll
+Z:\Visual Studio Projects\Simple Weather App\Simple Weather App\bin\Debug\net6.0-windows\System.Text.Json.dll
