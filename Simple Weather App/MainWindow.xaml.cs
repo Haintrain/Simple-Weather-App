@@ -58,7 +58,7 @@ namespace Simple_Weather_App
             }
 
             double temperatureCelcius = Math.Round(double.Parse(weather.weatherInfo.main.temp.ToString(), provider) - 273.15, 2);
-            double temperatureFahrenheit = temperatureCelcius * 9 / 5 + 32;
+            double temperatureFahrenheit = Math.Round(temperatureCelcius * 9 / 5 + 32, 2);
 
             MainTextBlock.Text = char.ToUpper(weather.weatherInfo.weather[0].description[0]) + weather.weatherInfo.weather[0].description.Substring(1) + " and a temperature of " + temperatureCelcius.ToString() + " C or " + temperatureFahrenheit.ToString() + " F";
         }
