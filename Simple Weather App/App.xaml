@@ -4,6 +4,79 @@
              xmlns:local="clr-namespace:Simple_Weather_App"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+        <Style 
+            x:Key="MainButton"  
+            TargetType="{x:Type Button}">
+            <Setter Property="FontSize" Value="12pt" />
+            <Setter Property="Background" Value="Black" />
+            <Setter Property="Foreground" Value="White" />
+            <Setter Property="Margin" Value="1" />
+
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Border Background="{TemplateBinding Background}">
+                            <ContentPresenter TextBlock.Foreground="White" TextBlock.TextAlignment="Center"  VerticalAlignment="Center" Margin="0,8,0,0" ></ContentPresenter>
+                        </Border>
+
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" Value="#555555" />
+                                <Setter Property="Foreground" Value="White" />
+                                <Setter Property="FontSize" Value="24" />
+                            </Trigger>
+
+                            <Trigger Property="IsPressed" Value="True">
+                                <Setter Property="Background" Value="#666666" />
+                                <Setter Property="Foreground" Value="White" />
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <Style 
+            x:Key="MainTextBlock"
+            TargetType="{x:Type TextBlock}">
+            <Setter Property="Background" Value="Transparent" />
+            <Setter Property="Foreground" Value="White" />
+            <Setter Property="TextAlignment" Value="Right" />
+            <Setter Property="VerticalAlignment" Value="Center" />
+            <Setter Property="FontSize" Value="12" />
+
+        </Style>
+        
+        <Style 
+            x:Key="MainTextBox"
+            TargetType="{x:Type TextBox}">
+            <Setter Property="Background" Value="Transparent" />
+            <Setter Property="Foreground" Value="White" />
+            <Setter Property="TextAlignment" Value="Right" />
+            <Setter Property="VerticalAlignment" Value="Center" />
+            <Setter Property="FontSize" Value="20" />
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type TextBoxBase}">
+                        <Border 
+                            Name="Border"
+                            CornerRadius="2" 
+                            Padding="2"
+                            Background="#555555"
+                            BorderBrush="#888888"
+                            BorderThickness="1" >
+                            <ScrollViewer Margin="0" x:Name="PART_ContentHost"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsEnabled" Value="False">
+                                <Setter TargetName="Border" Property="Background" Value="#EEEEEE"/>
+                                <Setter TargetName="Border" Property="BorderBrush" Value="#EEEEEE"/>
+                                <Setter Property="Foreground" Value="#888888"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
     </Application.Resources>
 </Application>

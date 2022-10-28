@@ -24,3 +24,4 @@ Z:\Visual Studio Projects\Simple Weather App\Simple Weather App\obj\Debug\net6.0
 Z:\Visual Studio Projects\Simple Weather App\Simple Weather App\obj\Debug\net6.0-windows\Simple Weather App.genruntimeconfig.cache
 Z:\Visual Studio Projects\Simple Weather App\Simple Weather App\obj\Debug\net6.0-windows\ref\Simple Weather App.dll
 Z:\Visual Studio Projects\Simple Weather App\Simple Weather App\bin\Debug\net6.0-windows\System.Text.Json.dll
+Z:\Visual Studio Projects\Simple Weather App\Simple Weather App\obj\Debug\net6.0-windows\App.baml
